@@ -4,7 +4,7 @@ package spreadsheet
 type SheetProperties struct {
 	ID             uint           `json:"sheetId,omitempty"`
 	Title          string         `json:"title,omitempty"`
-	Index          uint           `json:"index,omitempty"`
+	Index          uint           `json:"index"`
 	SheetType      string         `json:"sheetType,omitempty"`
 	GridProperties GridProperties `json:"gridProperties,omitempty"`
 	Hidden         bool           `json:"hidden,omitempty"`
